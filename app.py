@@ -26,10 +26,10 @@ img_password_manager = Image.open("images/passwordmanager.png")
 
 # -- header section
 with st.container():
-    st.subheader("Hi, I am Michael :wave:")
+    st.subheader("Hi, I am name :wave:")
     st.title("A Software Engineer")
     st.write("Turning ideas into well developed products is my calling")
-    st.write("[See some of my codes >](https://github.com/alvarezmike)")
+    st.write("[See some of my codes >](https://github.com)")
 
 # -- What I Do
 with st.container():
@@ -49,7 +49,7 @@ with st.container():
             If this sounds interesting to you, coonsider subscribing shsushbbddbb
             """
         )
-        st.write("[Youtube channel] > link here")
+
     with right_column:
         st_lottie(lottie_coding, height=300, key="coding")
 
@@ -63,10 +63,10 @@ with st.container():
     with image_column:
         st.image(img_password_manager)
     with text_column:
-        st.subheader("Password Manager")
+        st.subheader("Project 1")
         st.write(
             """
-            Save your accounts emails and passwords under a single txt file.
+            Description example: Save your accounts emails and passwords under a single txt file.
             This was done using learned concepts on Python and the package tkinter
             """
             )
@@ -77,10 +77,10 @@ with st.container():
     with image_column:
         st.image(img_password_manager)
     with text_column:
-        st.subheader("Password Manager")
+        st.subheader("Project 2")
         st.write(
             """
-            Save your accounts emails and passwords under a single txt file.
+            Description example: Save your accounts emails and passwords under a single txt file.
             This was done using learned concepts on Python and the package tkinter
             """
             )
